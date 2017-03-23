@@ -59,7 +59,7 @@
 #                       type:Array[String]
 #
 # $amqp_port::          Packages that this module ensures are present instead of the default
-#                       type: string , default: '5671'
+#                       type:String['5671']
 #
 class katello (
   $user             = $katello::params::user,
